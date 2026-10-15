@@ -1,0 +1,172 @@
+# ==========================================
+# Java / Spring Boot
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Build output
+# ==========================================
+target/
+build/
+out/
+bin/
+dist/
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+
+# Keep Maven Wrapper configuration
+!.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/maven-wrapper.xml
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# ==========================================
+# Eclipse
+# ==========================================
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+.history/
+
+# ==========================================
+# NetBeans
+# ==========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+logs/
+log/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.old
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Secret or local configuration files
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+application-prod-local.properties
+application-prod-local.yml
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ==========================================
+# Spring Boot / local runtime files
+# ==========================================
+application-local-*.properties
+application-local-*.yml
+application-local-*.yaml
+*.pid
+
+# ==========================================
+# Docker local overrides
+# ==========================================
+docker-compose.override.yml
+docker-compose.local.yml
+.env.docker
+
+# ==========================================
+# Database files and local data
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# ==========================================
+# Operating system files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Coverage and test reports
+# ==========================================
+coverage/
+jacoco.exec
+/site/
+surefire-reports/
+failsafe-reports/
+
+# ==========================================
+# Dependency and package caches
+# ==========================================
+node_modules/
+.npm/
+.pnpm-store/
+
+# ==========================================
+# Generated documentation
+# ==========================================
+javadoc/
+
+# ==========================================
+# Microservices local data / observability
+# ==========================================
+data/
+redis-data/
+prometheus-data/
+grafana-data/
+
+# ==========================================
+# Local development overrides
+# ==========================================
+*.local
+*.local.*
